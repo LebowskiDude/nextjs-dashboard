@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import Image from "next/image";
 
+//vercel.com > data storage > database neon-fuchsia-tree > suggested env.local contents with show secrets copied to .env file (- renamed .env.example to .env).
+
 export default function Page() {
     return (
         <main className="flex min-h-screen flex-col p-6">
